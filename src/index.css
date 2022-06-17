@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
+.text-lightWhite{
+ color: rgba(255,255,255,0.6);
+}
+
+.text-lightBlack{
+  color:rgba(0,0,0,0.6);
+}
+
+body{
+  background:whitesmoke;
+}
+
+.bg-lightBlack{
+  background-color: rgba(0,0,0,0.1);
+}
+
+.bg-Black{
+  background-color: rgba(0,0,0,0.7);
+}
