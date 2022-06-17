@@ -40,7 +40,7 @@ const Info = (props) => {
   return (
     <>
       <div className='h-full container mx-auto px-4 flex items-center justify-center mb-12'>
-        <div className='w-4/5 shadow-lg bg-white p-4 mt-6 rounded-lg flex sm:flex-row flex-col justify-center sm:space-x-6'>
+        <div className='sm:w-4/5 w-full shadow-lg bg-white p-4 mt-6 rounded-lg flex sm:flex-row flex-col justify-center sm:space-x-6'>
           <div className='sm:w-1/2 w-full text-center relative'>
             <img className='bg-lightBlack rounded-lg mx-auto w-full h-96 object-cover object-center' src={data.display_src} />
             <div className={`${show} transition-all absolute h-96 w-full bg-Black top-0 rounded-tl-lg rounded-tr-lg flex items-center justify-center`}>
